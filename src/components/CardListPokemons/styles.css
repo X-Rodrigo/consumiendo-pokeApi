@@ -1,0 +1,47 @@
+.card-list-pokemons{
+    display: flex;
+    width: 10%;
+    min-width: 250px;
+    background-color: #252A41;
+    justify-content: center;
+    border-radius: 4px;
+    transition: 0.5s ease;
+    border: 1px solid aqua;
+    box-shadow: 0 0 10px aqua;
+    align-items: center;
+    padding: 7%;
+    flex-direction: column;
+}
+.card-list-pokemons-name{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.card-list-pokemons-img{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-card-list-pokemons{
+    display: flex;
+    width: 70%;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: black;
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    transition: 0.5s ease;
+    padding: 2.5%;
+    justify-content: center;
+}
+.btn-card-list-pokemons:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
